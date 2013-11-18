@@ -12,7 +12,7 @@ node_g
 .benchmark_reports
 /.project
 /.cproject
-
+node_modules/
 /out
 
 # various stuff that VC++ produces/uses
