@@ -28,7 +28,7 @@
 		"node": true
 	},
 	"scripts": {
-		"test": "node  $NODE_PATH/mocha/bin/mocha --harmony  --ui tdd --growl --reporter spec test/unit/*-test.js"
+		"test": "mocha --harmony  --ui tdd --growl --reporter spec "
 	},
 	"engines": ["node >= 0.7.8"],
 	"main": "./lib/lazyModule",
