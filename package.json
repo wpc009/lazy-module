@@ -31,6 +31,6 @@
 		"test": "mocha --harmony  --ui tdd --growl --reporter spec "
 	},
 	"engines": ["node >= 0.7.8"],
-	"main": "./lib/lazyModule",
+	"main": "./lib/lazy-module",
 	"optionalDependencies": {}
 }
