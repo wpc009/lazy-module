@@ -8,7 +8,8 @@ Any class that inherit from `LAZY` class will be lazy. All of it's function call
 
 Usage
 ============
-`var LAZY = require('lazy-module');
+<code>
+var LAZY = require('lazy-module');
  var util = require('util');
 function Example (){
    this.someProperty = 1;
@@ -40,7 +41,7 @@ a.emit('ready');
 //When the queue is empty, all it function calls will be execute immediately. Before that it still apend to the queue.
 stdout->function call be delaied\n 
         in asyncfunc\n
-`
+</code>
 
 
 
